@@ -141,8 +141,8 @@ The project is inspired by the hackathon's [tax-photo starter notebook](https://
 
 ## Origin and credits
 
-StreetScript is a team project from the Elastic x Mistral NYC Hack Night (Oct 7, 2026). The team's repository is [Paradox560/nyc-cut-up-machine](https://github.com/Paradox560/nyc-cut-up-machine). This repository is a standalone copy of its `main` branch (commit 50d6c6b), so that each contributor's own commits show up under their own GitHub account. Nothing in the code or the commit dates was changed. Only the author email on Elmir's 7 commits was corrected from a local machine address to his GitHub account address.
+StreetScript is a team project from the AI Agents Hack Night (Mistral AI x Elasticsearch), New York, Oct 7, 2026, where it won 1st place. The team was Pranav, Divyesh, Sahil and Elmir; the idea was Pranav's. The team's repository is [Paradox560/nyc-cut-up-machine](https://github.com/Paradox560/nyc-cut-up-machine) and most commits in this history are under that account.
 
-- Core pipeline (transcription, Elasticsearch hybrid retrieval, strict word provenance), most of the history: Paradox560.
-- Name, cube illustration and logo, photographed letter fill with per-letter provenance: Pranav.
-- Rearrange (same words, new form), vocabulary search, Mistral moderation, logo file cleanup, merging: Elmir ([elmir132](https://github.com/elmir132)).
+This repository is a standalone copy of its `main` branch (commit 50d6c6b), made so that Elmir's own commits show up under his GitHub account. Nothing in the code or the commit dates was changed; only the author email on Elmir's 7 commits was corrected from a local machine address to his GitHub account address.
+
+Elmir's part: the Rearrange feature (the same words rewritten in a new form, with no new search), the vocabulary search, Mistral moderation, a logo file cleanup and the merges.
