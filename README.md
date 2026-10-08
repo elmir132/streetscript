@@ -138,3 +138,11 @@ See [the NYC dataset guide](docs/DATASETS.md) for the larger Municipal Archives 
 Photographs: **1940s Tax Department photographs, Courtesy of the Municipal Archives, City of New York.** Each item also preserves its title, source URL, borough, block, and lot. Consult each archive record's rights information before redistributing images. The code repository contains metadata and source code, not a republished photograph collection.
 
 The project is inspired by the hackathon's [tax-photo starter notebook](https://github.com/AvenueJ/elastic-mistral-hacknight/blob/main/nyc_tax_photos.ipynb). Historical record dates describe the collection; the app does not infer current businesses, ownership, or whether a building survives today.
+
+## Origin and credits
+
+StreetScript is a team project from the Elastic x Mistral NYC Hack Night (Oct 7, 2026). The team's repository is [Paradox560/nyc-cut-up-machine](https://github.com/Paradox560/nyc-cut-up-machine). This repository is a standalone copy of its `main` branch (commit 50d6c6b), so that each contributor's own commits show up under their own GitHub account. Nothing in the code or the commit dates was changed. Only the author email on Elmir's 7 commits was corrected from a local machine address to his GitHub account address.
+
+- Core pipeline (transcription, Elasticsearch hybrid retrieval, strict word provenance), most of the history: Paradox560.
+- Name, cube illustration and logo, photographed letter fill with per-letter provenance: Pranav.
+- Rearrange (same words, new form), vocabulary search, Mistral moderation, logo file cleanup, merging: Elmir ([elmir132](https://github.com/elmir132)).
