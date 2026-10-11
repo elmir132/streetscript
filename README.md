@@ -8,6 +8,10 @@ Mistral reads and composes. Elasticsearch finds words and a reusable photographi
 
 ![StreetScript composing from verified NYC storefront words](docs/preview.png)
 
+![The offline demo assembling a preset composition from sample words](docs/demo-offline.gif)
+
+*The recording shows `python3 -m cutup --demo`: sample vocabulary and preset compositions, no API calls. The screenshot above it is the real mode, with words cut from archive photographs.*
+
 ## Quick start
 
 Requires **Python 3.11+**. The app has no Python package dependencies. Preparing new photographic word locations also requires **Tesseract** (tested with 5.5.2). Letter preparation currently uses Tesseract and the macOS `sips` utility; serving already-prepared crops does not require either tool.
